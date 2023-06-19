@@ -24,7 +24,7 @@
 .grid-11 	{width: 1170px;}
 .grid-12 	{width: 1280px;}
 
-@media only screen and (min-width:788px) and (max-width: 979px) {
+@media only screen and (min-width:788px) and (max-width: 1200px) {
 
 	.container {
 		width: 768px;
