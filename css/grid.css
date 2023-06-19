@@ -1,0 +1,59 @@
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.grid-1 	{width: 70px;}
+.grid-2 	{width: 180px;}
+.grid-3 	{width: 290px;}
+.grid-4 	{width: 400px;}
+.grid-5 	{width: 510px;}
+.grid-6 	{width: 620px;}
+.grid-7 	{width: 730px;}
+.grid-8 	{width: 840px;}
+.grid-9 	{width: 950px;}
+.grid-10 	{width: 1060px;}
+.grid-11 	{width: 1170px;}
+.grid-12 	{width: 1280px;}
+
+@media only screen and (min-width:788px) and (max-width: 979px) {
+
+	.container {
+		width: 768px;
+	}
+
+	.grid-1		{width: 42px;}
+	.grid-2		{width: 108px;}
+	.grid-3		{width: 174px;}
+	.grid-4		{width: 240px;}
+	.grid-5		{width: 306px;}
+	.grid-6		{width: 372px;}
+	.grid-7		{width: 438px;}
+	.grid-8		{width: 504px;}
+	.grid-9		{width: 570px;}
+	.grid-10	{width: 638px;}
+	.grid-11	{width: 702px;}
+	.grid-12	{width: 768px;}
+	
+}
+
+@media only screen and (max-width: 787px) {
+	.container {
+		width: 300px;
+	}
+	
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+		width: 300px;
+		margin: 0 0 20px 0;
+		float: none;
+	}
+	
+	}
