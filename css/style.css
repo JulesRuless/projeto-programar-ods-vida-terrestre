@@ -59,6 +59,14 @@ button {
     background-color: #FFF;
 }
 
+.selecionado {
+    color: #FFDE14;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
 /* estilos Footer */
 footer {
     background-color: #2F5515;
@@ -92,6 +100,7 @@ footer {
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 40px;
 }
 
 /* estilos Introdução HOME */
